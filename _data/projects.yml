@@ -1,0 +1,13 @@
+- year: 2024
+  projects:
+    - name: Project Alpha
+      description: Description of Project Alpha
+      link: https://example.com/alpha
+    - name: Project Beta
+      description: Description of Project Beta
+      link: https://example.com/beta
+- year: 2023
+  projects:
+    - name: Project Gamma
+      description: Description of Project Gamma
+      link: https://example.com/gamma
