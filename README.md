@@ -7,13 +7,9 @@ Website project for [lotrossmark.nl](https://lotrossmark.nl/)
 - Klik op `Commit` om wijzigingen op te slaan
 - Je wijzigingen zijn binnen een paar minuten zichtbaar
 
-### Local development
+## Development
 
 - Install Ruby
 - `gem install jekyll bundler`
 - `bundle install`
 - `bundle exec jekyll serve --livereload`
-
-### TODO
-
-- seo tag https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
