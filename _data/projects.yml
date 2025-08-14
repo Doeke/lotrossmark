@@ -1,22 +1,194 @@
+2024:
+  - titel: "Julian"
+    producent: "the Reunion"
+    type: "Speelfilm"
+    regisseur: "Cato Kusters"
 
-- year: 2025
-  projects:
-    - name: Project Zeta
-      description: Description of Project Alpha
-      link: https://example.com/alpha
-    - name: Project Beta
-      description: Description of Project Beta
-      link: https://example.com/beta
-- year: 2024
-  projects:
-    - name: Project Alpha
-      description: Description of Project Alpha
-      link: https://example.com/alpha
-    - name: Project Beta
-      description: Description of Project Beta
-      link: https://example.com/beta
-- year: 2023
-  projects:
-    - name: Project Gamma
-      description: Description of Project Gamma
-      link: https://example.com/gamma
+  - titel: "Rietland"
+    producent: "Viking Film"
+    type: "Speelfilm"
+    regisseur: "Sven Bresser"
+
+  - titel: "LV-22-LV"
+    producent: "Submarine"
+    type: "Documentaire"
+    regisseur: "Jeroen Kooijmans"
+
+2023:
+  - titel: "The Border Crossed Us"
+    producent: "Tangerine Tree"
+    type: "Documentaire"
+    regisseur: "Loretta van der Horst"
+    goudenkalf: true
+
+  - titel: "Sweet Dreams"
+    producent: "Lemming"
+    type: "Speelfilm"
+    regisseur: "Ena Sendijarević"
+    goudenkalf: true
+
+2022:
+  - titel: "Torch Song"
+    producent: "Family Affair Films"
+    type: "Speelfilm"
+    regisseur: "Jeroen Houben"
+
+  - titel: "Silver Haze"
+    producent: "Viking Films"
+    type: "Speelfilm"
+    regisseur: "Sacha Polak"
+
+  - titel: "Modern Love"
+    producent: "Amazon"
+    type: "Serie"
+    regisseur: "Mijke de Jong"
+
+2021:
+  - titel: "Narcosis"
+    producent: "Oak Film"
+    type: "Speelfilm"
+    regisseur: "Martijn de Jong"
+
+2020:
+  - titel: "A Man and a Camera"
+    producent: "Aventura"
+    type: "Documentaire"
+    regisseur: "Guido Hendrikx"
+
+  - titel: "Tot de dood ons scheidt"
+    producent: "Een van de jongens"
+    type: "Documentaire"
+    regisseur: "Niels van Koevorden"
+
+  - titel: "Mijn vader is een vliegtuig"
+    producent: "Topkapi"
+    type: "Speelfilm"
+    regisseur: "Antoinette Beumer"
+
+2019:
+  - titel: "Kom hier dat ik u kus"
+    producent: "Submarine"
+    type: "Speelfilm"
+    regisseur: "Sabine Lubbe Bakker & Niels van Koevorden"
+    goudenkalf: true
+
+  - titel: "Rules of War"
+    producent: "Lemming"
+    type: "Documentaire"
+    regisseur: "Guido Hendrikx"
+
+  - titel: "SKAM NL seizoen 2"
+    producent: "NTR"
+    type: "Televisieserie"
+    regisseur: "Bobbie Koek & Floor vd Meulen"
+
+2018:
+  - titel: "SKAM NL seizoen 1"
+    producent: "NTR"
+    type: "Televisieserie"
+    regisseur: "Bobbie Koek & Isabel Lamberti"
+
+  - titel: "L'été, et tout le reste"
+    producent: "IJswater Films"
+    type: "Korte fictiefilm"
+    regisseur: "Sven Bresser"
+
+  - titel: "One Night Stand XIII Freefight"
+    producent: "IJswater Films"
+    type: "Televisiefilm"
+    regisseur: "Sven Bresser"
+
+  - titel: "Take Me Somewhere Nice"
+    producent: "Pupkin"
+    type: "Speelfilm"
+    regisseur: "Ena Sendijarević"
+
+  - titel: "Nocturne"
+    producent: "Maniakfilm"
+    type: "Speelfilm"
+    regisseur: "Viktor van der Valk"
+
+2017:
+  - titel: "Avondland"
+    producent: "The Film Kitchen"
+    type: "Televisiefilm"
+    regisseur: "Nico van den Brink"
+
+  - titel: "De Begrafenis van de Verlegen Mens"
+    producent: "Pupkin"
+    type: "Korte fictiefilm"
+    regisseur: "Joost van Hezik"
+
+2016:
+  - titel: "Stranger in Paradise"
+    producent: "Zeppers"
+    type: "Documentaire"
+    regisseur: "Guido Hendrikx"
+
+  - titel: "Import"
+    producent: "Pupkin"
+    type: "Korte fictiefilm"
+    regisseur: "Ena Sendijarević"
+
+  - titel: "Stop Acting Now"
+    producent: "Topkapi & Wunderbaum"
+    type: "Speelfilm"
+    regisseur: "Mijke de Jong"
+
+  - titel: "ENG 'Space Girls'"
+    producent: "Pupkin"
+    type: "Televisieserie"
+    regisseur: "Ena Sendijarevic"
+
+  - titel: "ENG 'Liegbeest!'"
+    producent: "Pupkin"
+    type: "Televisieserie"
+    regisseur: "Willem Bosch"
+
+  - titel: "Icarus – De Verslavingsdeskundige"
+    producent: "Pupkin"
+    type: "Televisieserie"
+    regisseur: "Casper van der Putte"
+
+  - titel: "Wanna Little Something – Anouk"
+    producent: "100% Halal"
+    type: "Videoclip"
+    regisseur: "Noël Loozen"
+
+2015:
+  - titel: "De Nationale Opera"
+    producent: "Cake Film"
+    type: "Commercial"
+    regisseur: "Eefje Suijkerbuik"
+
+  - titel: "One Night Stand X – Patagonia"
+    producent: "Topkapi"
+    type: "Televisiefilm"
+    regisseur: "Flynn von Kleist"
+
+  - titel: "Duivelse Dilemma’s: De Verloren Zoon"
+    producent: "Talent United"
+    type: "Televisiefilm"
+    regisseur: "Jaap van Heusden"
+
+2014:
+  - titel: "Onno de Ontwetende"
+    producent: "NFA"
+    type: "Korte fictiefilm"
+    regisseur: "Viktor van der Valk"
+
+  - titel: "Onder Ons"
+    producent: "NFA"
+    type: "Korte documentaire"
+    regisseur: "Guido Hendrikx"
+
+2013:
+  - titel: "Reizigers in de nacht"
+    producent: "NFA"
+    type: "Korte fictiefilm"
+    regisseur: "Ena Sendijarević"
+
+  - titel: "Escort"
+    producent: "NFA"
+    type: "Korte documentaire"
+    regisseur: "Guido Hendrikx"

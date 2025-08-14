@@ -1,12 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Times;
+  src: url("/assets/times.ttf") format("truetype");
+}
+body {
+  font-family: Times, serif;
+  font-size: 15px;
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  gap: 32px;
+}
 table {
   border-collapse: collapse;
   width: 100%;
 }
 th,
 td {
-  border: 1px solid #ccc;
+  /* border: 1px solid #ccc; */
   padding: 8px;
+  border-style: ridge;
+  border-color: #ffffff;
+}
+table img {
+  vertical-align: middle;
 }
 th {
   background: #eee;
+}
+p {
+  font-size: 110%;
+}
+canvas {
+  width: 100%;
 }

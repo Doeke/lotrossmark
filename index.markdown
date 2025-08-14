@@ -5,33 +5,47 @@
 layout: default
 ---
 
-Lot Rossmark is filmmonteur, werkzaam in Amsterdam, Nederland.
+<p>Lot Rossmark is filmmonteur, werkzaam in Amsterdam, Nederland.</p>
 
 <table>
   <thead>
     <tr>
-      <th>Year</th>
-      <th>Project Name</th>
-      <th>Description</th>
-      <th>Link</th>
+      <th></th>
+      <th>Titel</th>
+      <th>Producent</th>
+      <th></th>
+      <th>Regisseur</th>
     </tr>
   </thead>
   <tbody>
     {% assign prev_year = "" %}
     {% for entry in site.data.projects %}
-    {% for project in entry.projects %}
-    <tr>
-      {% if entry.year != prev_year %}
-      <td>{{ entry.year }}</td>
-      {% assign prev_year = entry.year %}
-      {% else %}
-      <td></td>
-      {% endif %}
-      <td>{{ project.name }}</td>
-      <td>{{ project.description }}</td>
-      <td><a href="{{ project.link }}">View Project</a></td>
-    </tr>
-    {% endfor %}
+      {% assign year = entry[0] %}
+      {% for project in entry[1] %}
+        <tr>
+          <td>
+            {% if year != prev_year %}
+              <strong>{{ year }}</strong>
+              {% assign prev_year = year %}
+            {% endif %}
+          </td>
+          <td>
+            {{ project.titel }}
+            {% if project.goudenkalf == true %}
+              <img src="{{ site.baseurl }}/assets/goudenkalf2.png" title="Gouden Kalf" />
+            {% endif %}
+          </td>
+          <td>
+            {{ project.producent }}
+          </td>
+          <td>
+            {{ project.type }}
+          </td>
+          <td>
+            {{ project.regisseur }}
+          </td>
+        </tr>
+      {% endfor %}
     {% endfor %}
   </tbody>
 </table>
@@ -56,10 +70,12 @@ Lot Rossmark is filmmonteur, werkzaam in Amsterdam, Nederland.
         / +31 (0)6 250 626 58</td>
     </tr>
     <tr>
-      <th></th>
+      <th>Links</th>
       <td>
+        <img src="{{ site.baseurl }}/assets/imdb.png" alt="IMDB" />
         <a href="https://www.imdb.com/name/nm6113080/">imdb</a>
       </td>
     </tr>
+
   </tbody>
 </table>
