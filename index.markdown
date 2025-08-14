@@ -32,7 +32,7 @@ layout: default
           <td>
             {{ project.titel }}
             {% if project.goudenkalf == true %}
-              <img src="{{ site.baseurl }}/assets/goudenkalf2.png" title="Gouden Kalf" />
+              <img src="assets/goudenkalf2.png" title="Gouden Kalf" />
             {% endif %}
           </td>
           <td>
@@ -72,7 +72,7 @@ layout: default
     <tr>
       <th>Links</th>
       <td>
-        <img src="{{ site.baseurl }}/assets/imdb.png" alt="IMDB" />
+        <img src="assets/imdb.png" alt="IMDB" />
         <a href="https://www.imdb.com/name/nm6113080/">imdb</a>
       </td>
     </tr>

@@ -1,13 +1,13 @@
 Website project for [lotrossmark.nl](https://lotrossmark.nl/)
 
-## Editing projects on Github
+## Projecten wijzigen:
 
-- Click on `_data` then `projects.yml`
-- Edit by clicking pencil icon
-- Click `Commit` to save changes
-- Your changes should be visible within in a couple of minutes
+- Klik op `_data` en vervolgens op `projects.yml`
+- Bewerk door op het potlood te klikken
+- Klik op `Commit` om wijzigingen op te slaan
+- Je wijzigingen zijn binnen een paar minuten zichtbaar
 
-## Local development
+### Local development
 
 - Install Ruby
 - `gem install jekyll bundler`
@@ -17,6 +17,3 @@ Website project for [lotrossmark.nl](https://lotrossmark.nl/)
 ### TODO
 
 - seo tag https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
-- 5 digit website counter
-- gouden kalf
-- layout
