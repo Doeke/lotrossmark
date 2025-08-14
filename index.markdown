@@ -63,7 +63,7 @@ layout: default
     </tr>
     <tr>
       <th>Contact</th>
-      <td><a href="mailto:lotnana@hotmail.com">mail@lotrossmark.nl</a>
+      <td><a href="mailto:lotnana@hotmail.com">lotnana@hotmail.com</a>
         / +31 (0)6 250 626 58</td>
     </tr>
     <tr>
