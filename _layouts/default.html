@@ -2,22 +2,41 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Lot Rossmark</title>
-    <link rel=stylesheet href="assets/style.css"></style>
+    {% seo %}
+    <link rel="stylesheet" href="assets/style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="{{ 'assets/favicon32.png' | relative_url }}"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="180x180"
+      href="{{ 'assets/favicon180.png' | relative_url }}"
+    />
   </head>
   <body>
-    <div id=logocontainer style="width:100%;height:100px;overflow:hidden;position:relative">
-      <img src="assets/lot-logo3.gif" alt="Lot Rossmark" id=logo />
+    <div
+      id="logocontainer"
+      style="width: 100%; height: 100px; overflow: hidden; position: relative"
+    >
+      <img src="assets/lot-logo3.gif" alt="Lot Rossmark" id="logo" />
     </div>
     <script src="assets/logo-anim.js"></script>
-      
+
     {{ content }}
 
     <p>
-      <a href="https://www.freecounterstat.com" title="page hit counter"><img src="https://counter1.optistats.ovh/private/freecounterstat.php?c=32cdl4mh6jrafups31tlerj2754x9tuj" border="0" title="page hit counter" alt="page hit counter"></a>
+      <a href="https://www.freecounterstat.com" title="page hit counter"
+        ><img
+          src="https://counter1.optistats.ovh/private/freecounterstat.php?c=32cdl4mh6jrafups31tlerj2754x9tuj"
+          border="0"
+          title="page hit counter"
+          alt="page hit counter"
+      /></a>
     </p>
-    <footer>
-      &copy; 1998 - {{ "now" | date: "%Y" }} Lot Rossmark
-    </footer>
+    <footer>&copy; 1998 - {{ "now" | date: "%Y" }} Lot Rossmark</footer>
   </body>
 </html>
