@@ -10,10 +10,10 @@ layout: default
 <table>
   <thead>
     <tr>
-      <th></th>
+      <th>Jaar</th>
       <th>Titel</th>
       <th>Producent</th>
-      <th></th>
+      <th>Filmtype</th>
       <th>Regisseur</th>
     </tr>
   </thead>
