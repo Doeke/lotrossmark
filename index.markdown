@@ -5,7 +5,7 @@ layout: default
 <p>Lot Rossmark is filmmonteur, werkzaam in Amsterdam, Nederland.</p>
 
 <table>
-  <thead>
+  {% comment %} <thead>
     <tr>
       <th align="left"></th>
       <th align="left">Titel</th>
@@ -13,7 +13,7 @@ layout: default
       <th align="left">Filmtype</th>
       <th align="left">Regisseur</th>
     </tr>
-  </thead>
+  </thead> {% endcomment %}
   <tbody>
     {% assign prev_year = "" %}
     {% for entry in site.data.projects %}
@@ -38,7 +38,7 @@ layout: default
           <td>
             {{ project.type }}
           </td>
-          <td>
+          <td style="width:25%">
             {{ project.regisseur }}
           </td>
         </tr>
