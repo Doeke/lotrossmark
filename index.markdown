@@ -2,8 +2,6 @@
 layout: default
 ---
 
-<p>Lot Rossmark is filmmonteur, werkzaam in Amsterdam, Nederland.</p>
-
 <table>
   <tbody>
     {% assign prev_year = "" %}

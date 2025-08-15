@@ -29,9 +29,20 @@ td {
 table img {
   vertical-align: middle;
 }
-p {
-  font-size: 110%;
-}
 canvas {
   width: 100%;
+}
+
+#tagline {
+  font-size: 115%;
+  font-weight: bold;
+  animation: colorRotate 3s infinite alternate ease-in-out;
+}
+@keyframes colorRotate {
+  0% {
+    color: #506dff;
+  }
+  100% {
+    color: #96ff03;
+  }
 }
