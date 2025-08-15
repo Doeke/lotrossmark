@@ -7,11 +7,11 @@ layout: default
 <table>
   <thead>
     <tr>
-      <th>Jaar</th>
-      <th>Titel</th>
-      <th>Producent</th>
-      <th>Filmtype</th>
-      <th>Regisseur</th>
+      <th align="left"></th>
+      <th align="left">Titel</th>
+      <th align="left">Producent</th>
+      <th align="left">Filmtype</th>
+      <th align="left">Regisseur</th>
     </tr>
   </thead>
   <tbody>
@@ -50,24 +50,24 @@ layout: default
 <table>
   <tbody>
     <tr>
-      <th>Programma’s</th>
+      <th align="right">Programma’s</th>
       <td>Avid Media Composer / Adobe Photoshop</td>
     </tr>
     <tr>
-      <th>Opleiding</th>
+      <th align="right">Opleiding</th>
       <td>Nederlandse Filmacademie Amsterdam - Bachelor montage - 2010 - 2014</td>
     </tr>
     <tr>
-      <th>Studio</th>
+      <th align="right">Studio</th>
       <td>Rozengracht 105 b8, 1016LV Amsterdam</td>
     </tr>
     <tr>
-      <th>Contact</th>
-      <td><a href="mailto:lotnana@hotmail.com">lotnana@hotmail.com</a>
+      <th align="right">Contact</th>
+      <td><a href="mail@lotrossmark.nl">mail@lotrossmark.nl</a>
         / +31 (0)6 250 626 58</td>
     </tr>
     <tr>
-      <th>Links</th>
+      <th align="right">Links</th>
       <td>
         <img src="assets/imdb.png" alt="IMDB" />
         <a href="https://www.imdb.com/name/nm6113080/">imdb</a>
