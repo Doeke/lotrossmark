@@ -22,9 +22,8 @@ table {
 }
 th,
 td {
-  /* border: 1px solid #ccc; */
   padding: 8px;
-  border-style: ridge;
+  border-style: none;
   border-color: #fff;
 }
 table img {
