@@ -2,6 +2,7 @@
 layout: default
 ---
 
+<div class="table-container">
 <table>
   <tbody>
     {% assign prev_year = "" %}
@@ -9,12 +10,12 @@ layout: default
       {% assign year = entry[0] %}
       {% for project in entry[1] %}
         <tr>
-          <td>
+          <th align="right" width="15%">
             {% if year != prev_year %}
-              <strong>{{ year }}</strong>
+              {{ year }}
               {% assign prev_year = year %}
             {% endif %}
-          </td>
+          </th>
           <td>
             {{ project.titel }}
             {% if project.goudenkalf == true %}
@@ -27,7 +28,7 @@ layout: default
           <td>
             {{ project.type }}
           </td>
-          <td style="width:25%">
+          <td>
             {{ project.regisseur }}
           </td>
         </tr>
@@ -35,11 +36,13 @@ layout: default
     {% endfor %}
   </tbody>
 </table>
+</div>
 
+<div class="table-container">
 <table>
   <tbody>
     <tr>
-      <th align="right">Programma’s</th>
+      <th align="right" width="30%">Programma’s</th>
       <td>Avid Media Composer / Adobe Photoshop</td>
     </tr>
     <tr>
@@ -65,3 +68,4 @@ layout: default
 
   </tbody>
 </table>
+</div>

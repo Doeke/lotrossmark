@@ -7,22 +7,25 @@ body {
   font-family: serif;
   font-size: 15px;
   font-smooth: never;
-  -webkit-font-smoothing: none;
+}
+main {
   display: flex;
   flex-direction: column;
-  padding: 32px;
   align-items: center;
-  max-width: 1000px;
-  margin: 0 auto;
+  max-width: 100%;
+  width: 1200px;
+  margin: 32px auto;
   gap: 32px;
 }
 table {
-  border-collapse: collapse;
-  width: 100%;
+  border-spacing: 24px;
+}
+.table-container {
+  max-width: 100%;
+  overflow-x: auto;
 }
 th,
 td {
-  padding: 8px;
   border-style: none;
   border-color: #fff;
 }
@@ -37,6 +40,7 @@ canvas {
   font-size: 115%;
   font-weight: bold;
   animation: colorRotate 3s infinite alternate ease-in-out;
+  text-align: center;
 }
 @keyframes colorRotate {
   0% {
