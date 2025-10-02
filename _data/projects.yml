@@ -14,6 +14,7 @@
     producent: "Viking Film"
     type: "Speelfilm"
     regisseur: "Sven Bresser"
+    goudenkalf: true
 
   - titel: "LV-22-LV"
     producent: "Submarine"
